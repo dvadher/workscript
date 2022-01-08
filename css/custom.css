@@ -1,0 +1,403 @@
+/* 
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Serif Pro', serif; 
+*/
+/*================================= comoon css =================================*/
+
+body {
+  font-family: "Source Serif Pro",serif;
+	touch-action: manipulation;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 32px;
+	background: #ffffff;
+  overflow-x: hidden;
+  color:#151515;
+  }
+.font_primary{
+  font-family: "Source Serif Pro",serif;
+}
+.font_secondary, .footer_list a{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.text_primary, .logo_heading, .navbar-nav-link:hover, .footer_list a{
+  color:#151515 !important;
+}
+.text_secondary, .footer_list a:hover{
+  color:#da3333 !important;
+}
+.bg_primary{
+  background-color:#151515;
+}
+.bg_secondary{
+  background-color:#da3333;
+}
+.container{
+	max-width: 1180px;
+}  
+p, h1, h2, h3, h4, h5, h6{
+  margin-bottom:0px;
+}
+/* custom scroll */
+  ::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 10px #fff;
+	border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background:#7f7f7f;
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  }
+  /* custom scroll */
+
+  p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.04;
+    margin-bottom: 16px;
+    color: #151515;
+    line-height: 30px;
+  }
+  /* heading css */
+  h1 {
+    color: transparent;
+    text-shadow: none;
+    -webkit-text-stroke: 1px #000;
+    font-size: 95px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: color .3s,-webkit-text-stroke .3s;
+}
+/* .section_breadcrumbs h1:hover{
+  color: transparent;
+  transition: color .3s,-webkit-text-stroke .3s;
+  background-image: url(../images/video_popuup.jpg);
+  background-position: 50%;
+  -webkit-background-clip: text;
+  background-size: 100% 100%;
+} */
+h1:hover,  h1 span{
+  color: #151515;
+  transition: color .3s,-webkit-text-stroke .3s;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #151515;
+}
+h3 {
+  font-family: Source Serif Pro;
+  font-size: 25px;
+  font-weight: 700;
+  color: #151515;
+  line-height: 30px;
+}
+h5 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #151515;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h6 {
+  font-family: "Source Serif Pro",serif;
+  color: #151515;
+  font-size: 26px;
+  font-weight: 700;
+}
+.font-small{
+  font-size: 14px;
+}
+  /* heading css */
+  p:last-child{
+	margin-bottom:0px;
+  }
+  button::-moz-focus-inner {
+	border: 0;
+  }
+  :focus {
+	outline: none;
+  }
+  ::-moz-focus-inner {
+	border: 0;
+  }
+  button:focus {
+	outline: none;
+  }
+  a,
+  a:hover,
+  button,
+  button:hover, .indus_block, .indus_block:hover {
+	transition: all 0.5s ease 0s !important;
+  }
+
+/*================================= 4 Global Styles (#glob) =================================*/
+.page-content {
+  padding-top: 108px;
+}
+.section-spacer{
+  padding:60px 0px;
+}
+.logo_heading h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+.navbar-nav-link {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  outline: 0;
+  transition: all ease-in-out .15s;
+  color: rgba(24,24,21,.5)!important;
+  font-family: "Source Sans Pro",sans-serif!important;
+  font-weight: 700!important;
+  text-transform: uppercase!important;
+  letter-spacing: 0.1em!important;
+  padding: 0 20px!important;
+  font-size: 15px!important;
+}
+.magnet-button {
+  display: inline-flex;
+  white-space: nowrap;
+  color: #fff;
+  background: #da3333;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  padding: 9px 30px;
+  letter-spacing: .1em;
+  border:1px solid #da3333
+}
+.magnet-button:hover{
+  border-color: #151515;
+  color:#151515;
+  background:transparent;
+}
+.fixed-top{
+  z-index: 999;
+  background: #fff;
+}
+.custom-header.sticky .navbar {
+  -webkit-box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 20%);
+}
+.sub-heading {
+  font-size: 23px;
+  position: relative;
+  padding-left: 40px;
+}
+.sub-heading:after {
+  content: "";
+  background: #da3333;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 35px;
+  height: 2px;
+}
+.container-fluid {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.section-about .right_content img {
+  height: 480px;
+  object-fit: cover;
+}
+.service_block img {
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: contain;
+}
+.service_block {
+  padding: 30px;
+}
+.service_block h3 {
+  padding: 20px 0px 25px;
+}
+.service_block:hover, .section_services .owl-item.active.center {
+  box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+}
+.section_services{
+  position:relative;
+  overflow:hidden;
+}
+.section_services .owl-stage-outer{
+  overflow: visible;
+}
+.section_services:after {
+  content: "";
+  position: absolute;
+  width: 16%;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  z-index: 99;
+}
+.footer_top, .footer-copyright {
+  border-top: 1px solid #e1e1e1;
+}
+.footer_list a{
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-weight: 700!important;
+  margin-bottom: 5px;
+}
+.footer-copyright p {
+  font-weight: 600;
+}
+.social-group a {
+  color: #da3333;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px 8px;
+}
+.breadcrumbs_heading{
+    color: rgba(24,24,21,.5);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-family: Source Sans Pro!important;
+    margin-bottom: 30px;
+}
+.bg_heading h5{
+  font-size: 63px;
+  letter-spacing: 0.76px;
+  color: transparent;
+  text-shadow: none;
+  -webkit-text-stroke: 1px #000;
+}
+.img-size-1 {
+  width: 100%;
+}
+.right_img {
+  margin-top: 100px;
+}
+h4.number {
+  font-size: 60px;
+  font-weight: 700;
+  text-align:center;
+}
+h4 {
+  font-size: 60px;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 500;
+}
+section.section_project a {
+  font-size: 55px;
+  line-height: 60px;
+  position: relative;
+  font-weight: 700;
+}
+section.section_project a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px;
+  background: currentColor;
+  transition: transform 0.45s cubic-bezier(.4,.22,.21,1.04);
+}
+section.section_project a{
+  color:#fff !important;
+}
+section.section_project a:hover:after{
+  transform: scaleX(0);
+}
+.section_project{
+  background-image: url(../images/project-bg.png);
+  background-color:#000;
+  -webkit-animation: slide 20s linear infinite;
+  animation: slide 20s linear infinite;
+}
+.section_teach_content .nav-link {
+  font-size: 18px;
+  color: #151515;
+  font-weight: 600;
+  position: relative;
+  padding: 20px 30px;
+}
+.section_teach_content .nav-link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4px;  
+  background: transparent;  
+  transform: scaleX(0);
+  transition: transform 0.45s cubic-bezier(.4,.22,.21,1.04);
+}
+.nav-tabs .nav-item.show .nav-link:after, .nav-tabs .nav-link.active:after{
+  background: #da3333;
+  transform: scaleX(1);
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  border-color: transparent;
+}
+.indus_block img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.indus_block h6 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 18px;
+}
+.indus_block{
+  padding: 40px 15px;
+}
+.indus_block:hover {
+  box-shadow: 0px 20px 100px rgb(0 0 0 / 10%);
+}
+.indus_block:hover img{
+  -webkit-filter: unset;
+  filter: unset;
+}
+
+/*=================================== media query css ===================================*/
+
+@media (min-width: 1200px){
+  .section_services:after {
+    width: 46px;
+}
+}
+@media (min-width: 1920px){
+  .section_services:after {
+    width: 375px;
+}
+}
+  @media only screen and (min-width: 300px) and (max-width: 767px) {
+    
+    button.navbar-toggler.collapsed.jb_front_nav_close {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+   
+  }
+  @media only screen and (min-width: 991px) and (max-width: 1024px) {
+
+  }
+
+  
