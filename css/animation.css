@@ -65,10 +65,6 @@ data-aos="flip-left" */
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 1s infinite  alternate;
 }
-.vert-move {
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
-}
 @-webkit-keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
@@ -76,6 +72,20 @@ data-aos="flip-left" */
 @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
+}
+
+
+.vert-movex {
+  -webkit-animation: rotate 1s infinite  alternate;
+  animation: rotate 1s infinite  alternate;
+}
+@-webkit-keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(20deg); }
+}
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(20deg); }
 }
 
 /* image move Continuously top to bottom and bottom to top */
@@ -236,5 +246,14 @@ data-aos="flip-left" */
   }
   to {
       background-position:   0 -400px;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
   }
 }

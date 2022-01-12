@@ -13,6 +13,8 @@
       <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
       <link href="css/fonts/fonts.css" rel="stylesheet">
        <!-- parallex effect   -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+       <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css'>
        <link rel="stylesheet" href="css/normalize.min.css">
        <link rel="stylesheet" href="css/parallex.css">
       <link rel="stylesheet" href="css/custom.css">
@@ -23,16 +25,17 @@
       <!-- cursor animated -->
       <link rel="stylesheet" type="text/css" media="screen" href="css/cursor.css">
       <link rel="stylesheet" href="css/megnatic_button.css">
-      <!-- cursor animated -->                
+      <!-- cursor animated -->    
+
    </head>
    <body class="home_full_bg">
       <div id="container">
          <header class="custom-header" id="custom-header">
-            <div class="navbar navbar-expand-lg navbar-sticky border-0 fixed-top py-3">
+            <div class="navbar navbar-expand-lg navbar-sticky border-0 fixed-top py-3 custom_header">
                <div class="container">
                   <div class="navbar-brand py-0">
                      <a href="index.html" class="d-inline-block logo_heading">
-                        <h3>Work Script</h3>
+                        <h3>WorkScript</h3>
                      </a>
                   </div>
                   <div class="d-lg-none">
@@ -51,20 +54,20 @@
                            <a href="about.html" class="navbar-nav-link">About</a>
                         </li>
                         <li class="nav-item float-left">
-                           <a href="#services" class="navbar-nav-link">Services</a>
+                           <a href="services.html" class="navbar-nav-link">Services</a>
                         </li>
                         <li class="nav-item float-left">
-                           <a href="javascript:void(0)" class="navbar-nav-link">Portfolio</a>
+                           <a href="#industries" class="navbar-nav-link nav_jump">industries</a>
                         </li>
-                        
                         <li class="nav-item float-left">
-                           <a href="javascript:void(0)" class="navbar-nav-link">Blog</a>
+                           <a href="work.html" class="navbar-nav-link">work</a>
                         </li>
+                                               
                      </ul>
                      <div class="float-right">
                         <div class="main-menuright d-block d-md-block d-lg-flex align-items-center">
                            <div class="magnetic">
-                              <a href="javascript:;"  class="magnet-button" name="button">Start Project</a>
+                              <a href="contact.html"  class="magnet-button" name="button">Start Project</a>
                             </div>                                           
                         </div>
                      </div>
@@ -111,25 +114,25 @@
                               </div>
                            </div>
                         </div>
-                        <div class="row">
+                        <div class="row align-items-center">
                            <div class="col-md-6">  
                               <div class="left_content">
-                                 <div class="block_content mt-5">
+                                 <div class="block_content about_block position-relative mt-4 pl-4">
                                     <h6>10+ Years Experience</h6>
                                     <p>makes us growth hackers</p>
                                  </div>
-                                 <div class="block_content mt-5">
-                                    <h6>10+ Years Experience</h6>
+                                 <div class="block_content about_block position-relative mt-4 pl-4">
+                                    <h6>Remote It Assistance</h6>
                                     <p>makes us growth hackers</p>
                                  </div>
-                                 <div class="block_content mt-5">
-                                    <h6>10+ Years Experience</h6>
+                                 <div class="block_content about_block position-relative mt-4 pl-4">
+                                    <h6>Solving IT Problems</h6>
                                     <p>makes us growth xhackers</p>
                                  </div>
-                                 <div class="block_content mt-5">
-                                    <h6>10+ Years Experience</h6>
+                                 <div class="block_content about_block position-relative mt-4 pl-4">
+                                    <h6>Practice IT Management</h6>
                                     <p>makes us growth hackers</p>
-                                 </div>
+                                 </div>                                
                               </div>                       
                            </div>
                            <div class="col-md-6">
@@ -162,60 +165,221 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="section_service_top-content mt-5 pt-3">
-                              <div id="services_slider" class="owl-carousel">                                 
-                                 <div class="item">
-                                   <div class="service_block">
-                                      <div class="img_block">
-                                         <img src="images/icons/web_aaplication_development.png" alt="work script web developement">
-                                      </div>
-                                      <h3> Web Application <br>
-                                       Development</h3>
-                                       <div class="block_content">
-                                         <p> We have built secure web application development solutions that align with business long-term strategies. Focused on a collaborative approach, our team understands customers needs to unlock value, build generation-next capabilities.</p>
-                                       </div>
-                                   </div>                               
+                           <div class="row pt-5">
+                              <div class="col-md-4 left_col">
+                                 <div class="slider-for">
+                                    <div class="item">
+                                       <img src="images/services_1.png" alt="image"  draggable="false"/>
+                                    </div>
+                                    <div class="item">
+                                       <img src="images/services_2.png" alt="image" draggable="false"/>
+                                    </div>   
+                                    <div class="item">
+                                       <img src="images/services_3.png" alt="image" draggable="false"/>
+                                    </div>      
+                                    <div class="item">
+                                       <img src="images/item_3.png" alt="image" draggable="false"/>
+                                    </div>                       
                                  </div>
-                                 <div class="item">
-                                    <div class="service_block">
-                                       <div class="img_block">
-                                          <img src="images/icons/web_aaplication_development.png" alt="work script web developement">
+                              </div>
+                              <div class="col-md-8">
+                                 <div class="slider-nav">
+                                    <div class="item">
+                                       <div class="services_block">
+                                          <div class="img_block mb-3">
+                                             <img src="images/icons/web_aaplication_development.png" alt="work script web developement">
+                                          </div>
+                                          <h3> Web Application <br>
+                                             Development</h3>  
+                                             <p>Experienced in both Microsoft technologies and Open source technologies, our certified team of developers is expert at choosing the best platform for your online needs.</p> 
+                                             <a href="services.html#web_app_development" class="btn_more ">Read More</a>
+                                       </div>
+                                    </div>
+                                    <div class="item">
+                                       <div class="services_block">
+                                       <div class="img_block mb-3">
+                                          <img src="images/icons/mobile_application_devlopment.png" alt="work script web developement">
                                        </div>
                                        <h3> Mobile Application <br>
-                                        Development</h3>
-                                        <div class="block_content">
-                                          <p> We harness the latest technologies, tools, frameworks and SDKs to develop custom mobile applications for iPhone, iPad, and Android operating systems. Our clients have won awards and mobile apps have been featured in the App Store.</p>
-                                        </div>
-                                    </div>                               
-                                  </div>
-                                  <div class="item">
-                                    <div class="service_block">
-                                       <div class="img_block">
-                                          <img src="images/icons/web_aaplication_development.png" alt="work script web developement">
+                                          Development</h3>    
+                                          <p>Experienced in both Microsoft technologies and Open source technologies, our certified team of developers is expert at choosing the best platform for your online needs.</p> 
+                                          <a href="services.html#mobile_applications" class="btn_more">Read More</a>
                                        </div>
-                                       <h3> Front End  <br>
-                                          Development</h3>
-                                        <div class="block_content">
-                                          <p> Work Script expertise in frontend development ensures quick time to market and user-driven outcomes. We use modern frameworks to enable faster development of elements, powerful features, responsive websites, mobility and layouts.</p>
-                                        </div>
-                                    </div>                               
-                                  </div>
-                                  <div class="item">
-                                    <div class="service_block">
-                                       <div class="img_block">
-                                          <img src="images/icons/web_aaplication_development.png" alt="work script web developement">
+                                    </div>     
+                                    <div class="item">
+                                       <div class="services_block">
+                                       <div class="img_block mb-3">
+                                          <img src="images/icons/front_end_development.png" alt="work script web developement">
                                        </div>
-                                       <h3> Hire Dedicated  <br> 
-                                         Developers</h3>
-                                        <div class="block_content">
-                                          <p> Work Script offers flexible option to hire a dedicated development team or expert developers to bridge the IT talent demand and supply gap through a team of seasoned and skilled professionals with both technical domain expertise.</p>
-                                        </div>
-                                    </div>                               
-                                  </div>
+                                       <h3> Front End <br> Development</h3>   
+                                       <p>Experienced in both Microsoft technologies and Open source technologies, our certified team of developers is expert at choosing the best platform for your online needs.</p> 
+                                       <a href="#" class="btn_more">Read More</a>
+                                    </div>
+                                    </div>  
+                                    <div class="item">
+                                       <div class="services_block">
+                                       <div class="img_block mb-3">
+                                          <img src="images/icons/maintenance_support.png" alt="work script web developement">
+                                       </div>
+                                       <h3> maintenance <br> support </h3>   
+                                       <p>Experienced in both Microsoft technologies and Open source technologies, our certified team of developers is expert at choosing the best platform for your online needs.</p> 
+                                       <a href="#" class="btn_more">Read More</a>
+                                    </div>
+                                    </div>
+                                    <div class="item">
+                                       <div class="services_block">
+                                       <div class="img_block mb-3">
+                                          <img src="images/icons/testing.png" alt="work script web developement">
+                                       </div>
+                                       <h3> Testing <br> support </h3>   
+                                       <p>Experienced in both Microsoft technologies and Open source technologies, our certified team of developers is expert at choosing the best platform for your online needs.</p> 
+                                       <a href="#" class="btn_more">Read More</a>
+                                    </div>
+                                    </div>                           
+                                 </div> 
                               </div>
                            </div>
+                                                                                                        
                      </div>
-                  </section>                       
+                  </section>  
+                  <section id="industries" class="section_tech section-spacer">
+                     <div class="container">
+                        <div class="section_heading mb-4 text-center">
+                           <div class="row align-items-center justify-content-center">
+                              <div class="col-md-8">
+                                 <h2>TECHNOLOGY STACK</h2>
+                                 <div class="block_content mt-3">
+                                    <p>Technologies we work with</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="section_teach_content">
+                           <nav>
+                              <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-Front-End" role="tab" aria-controls="nav-Front-End" aria-selected="true">Front-End</a>
+                                <a class="nav-item nav-link" id="nav-BackEnd-tab" data-toggle="tab" href="#nav-BackEnd" role="tab" aria-controls="nav-BackEnd" aria-selected="false">BackEnd</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-Mobile" role="tab" aria-controls="nav-Mobile" aria-selected="false">Mobile</a>
+                                <a class="nav-item nav-link" id="nav-Database-tab" data-toggle="tab" href="#nav-Database" role="tab" aria-controls="nav-Database" aria-selected="false">Database</a>
+                              </div>
+                            </nav>
+                            <div class="tab-content mt-5" id="nav-tabContent">
+                              <div class="tab-pane fade show active" id="nav-Front-End" role="tabpanel" aria-labelledby="nav-Front-End-tab">
+                                <div class="row justify-content-center">
+                                   <div class="col-md-10">
+                                       <div class="row justify-content-center">
+                                          <div class="col-md-3">
+                                             <div class="indus_block text-center">
+                                                <img src="images/industries/front_end/angular.png">
+                                                <h6>Angular</h6>
+                                             </div>                                          
+                                          </div>
+                                          <div class="col-md-3">
+                                              <div class="indus_block text-center">
+                                                <img src="images/industries/front_end/react_js.png">
+                                                <h6>React JS</h6>
+                                             </div>
+                                            
+                                          </div>
+                                          <div class="col-md-3">
+                                             <div class="indus_block text-center">
+                                               <img src="images/industries/front_end/Vue_js.png">
+                                               <h6>Vue Js</h6>
+                                            </div>
+                                           
+                                         </div> 
+                                       </div>
+                                   </div>
+                                </div>
+                              </div>
+                              <div class="tab-pane fade" id="nav-BackEnd" role="tabpanel" aria-labelledby="nav-BackEnd-tab">
+                                 <div class="row justify-content-center">
+                                    <div class="col-md-10">
+                                        <div class="row justify-content-center">
+                                           <div class="col-md-3">
+                                              <div class="indus_block text-center">
+                                                 <img src="images/industries/back_end/node_js.png">
+                                                 <h6>Node Js</h6>
+                                              </div>                                          
+                                           </div>
+                                           <div class="col-md-3">
+                                               <div class="indus_block text-center">
+                                                 <img src="images/industries/back_end/php.png">
+                                                 <h6>PHP</h6>
+                                              </div>
+                                             
+                                           </div>
+                                           <div class="col-md-3">
+                                              <div class="indus_block text-center">
+                                                <img src="images/industries/back_end/python.png">
+                                                <h6>Phython</h6>
+                                             </div>
+                                            
+                                          </div> 
+                                        </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tab-pane fade" id="nav-Mobile" role="tabpanel" aria-labelledby="nav-Mobile-tab">
+                                 <div class="row justify-content-center">
+                                    <div class="col-md-10">
+                                        <div class="row justify-content-center">
+                                           <div class="col-md-3">
+                                              <div class="indus_block text-center">
+                                                 <img src="images/industries/mobile/android.png">
+                                                 <h6>ios</h6>
+                                              </div>                                          
+                                           </div>
+                                           <div class="col-md-3">
+                                               <div class="indus_block text-center">
+                                                <img src="images/industries/mobile/android.png">
+                                                <h6>Android</h6>
+                                              </div>
+                                             
+                                           </div>
+                                           <div class="col-md-3">
+                                              <div class="indus_block text-center">
+                                                <img src="images/industries/mobile/react_js.png">
+                                                <h6>React Native</h6>
+                                             </div>
+                                            
+                                          </div> 
+                                        </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tab-pane fade" id="nav-Database" role="tabpanel" aria-labelledby="nav-Database-tab">
+                                 <div class="row justify-content-center">
+                                    <div class="col-md-10">
+                                        <div class="row justify-content-center">
+                                           <div class="col-md-3">
+                                              <div class="indus_block text-center">
+                                                 <img src="images/industries/database/my_sql.png">
+                                                 <h6>MySQL</h6>
+                                              </div>                                          
+                                           </div>
+                                           <div class="col-md-3">
+                                               <div class="indus_block text-center">
+                                                <img src="images/industries/database/SQL_server.png">
+                                                <h6>SQL Server</h6>
+                                              </div>
+                                             
+                                           </div>
+                                           <div class="col-md-3">
+                                              <div class="indus_block text-center">
+                                                <img src="images/industries/mobile/react_js.png">
+                                                <h6>React Native</h6>
+                                             </div>
+                                            
+                                          </div> 
+                                        </div>
+                                    </div>
+                                 </div>
+                              </div>
+                            </div>
+                        </div>
+                     </div>
+                  </section>                 
                </div>
             </div>
          </div>
@@ -227,7 +391,7 @@
                      <div class="row">
                         <div class="col-md-3">
                            <a href="index.html" class="d-inline-block logo_heading">
-                              <h3>Work <span class="text_secondary">Script</span></h3>
+                              <h3>Work<span class="text_secondary">Script</span></h3>
                            </a>
                         </div>
                         <div class="col-md-3">
@@ -236,8 +400,8 @@
                            </div>
                            <div class="footer_list">
                               <a href="about.html" class="d-block">About us</a>
-                              <a href="javascript:;" class="d-block">Contact Us</a>
-                              <a href="javascript:;" class="d-block">Services</a>                             
+                              <a href="contact/html" class="d-block">Contact Us</a>
+                              <a href="services.html" class="d-block ">Services</a>                             
                            </div>
                         </div>
                         <div class="col-md-3">
@@ -245,9 +409,8 @@
                               <h5>quick Links</h5>
                            </div>
                            <div class="footer_list">
-                              <a href="javascript:;" class="d-block">Portfolio</a>
-                              <a href="javascript:;" class="d-block">blog</a>
-                              <a href="javascript:;" class="d-block">industries</a>                             
+                              <a href="work.html" class="d-block">work</a>
+                              <a href="javascript:;" class="d-block">blog</a>                            
                            </div>
                         </div>
                         <div class="col-md-3">
@@ -268,7 +431,7 @@
                         <div class="row align-items-center">
                            <div class="col-md-8">
                               <div class="block-content">
-                                 <p class="font-small">© Copyright 2021 @ <span class="text_secondary">Work Script Solution</span>.  <span>|</span>  All rights <br> reserved </p>
+                                 <p class="font-small">© Copyright 2021 @ <span class="text_secondary">WorkScript Solution</span>.  <span>|</span>  All rights <br> reserved </p>
                               </div>
                            </div>
                            <div class="col-md-4">
@@ -309,6 +472,6 @@
       <script src='js/imagesloaded.pkgd.min.js'></script>
       <script  src="js/parallex.js"></script>
 
-
+<script src='https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js'></script>
    </body>
 </html>
