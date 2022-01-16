@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+
+
+
 	/*====================== js for sticky and mobile menu ====================== */
 	var min_height = $(window).height() - ($(".custom-header").height() + $(".custom-footer").height());
 	$(".main_page").css('min-height', min_height + 'px');
@@ -118,7 +122,19 @@ $(document).ready(function() {
 		focusOnSelect: true,
 		autoplay:false,
 		prevArrow: ' <i class="fa fa-chevron-left" aria-hidden="true"></i>',
-    	nextArrow: '<i class="fa fa-chevron-right" aria-hidden="true"></i>'
+    	nextArrow: '<i class="fa fa-chevron-right" aria-hidden="true"></i>',
+		responsive: [	
+			{
+			  breakpoint: 767,
+			  settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			  }
+			}
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
+		  ]
 	  });
 			  
 	

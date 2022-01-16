@@ -3,6 +3,9 @@ font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Source Serif Pro', serif; 
 */
 /*================================= comoon css =================================*/
+html{
+  scroll-behaviour : smooth;
+} 
 body {
   font-family: "Source Serif Pro",serif;
 	touch-action: manipulation;
@@ -291,6 +294,7 @@ h4.number {
 }
 h4 {
   font-size: 60px;
+  line-height: 70px;
   font-family: 'Source Serif Pro', serif;
   font-weight: 500;
 }
@@ -579,7 +583,7 @@ section.work_content h4 {
   position: relative;
   top: 200px;
 }
-.s_heading.text-center h3 {
+.s_heading h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 80px;
   font-weight: 500;
@@ -597,7 +601,73 @@ section.work_content h4 {
     width: 375px;
 }
 }
+@media only screen and (min-width: 300px) and (max-width: 575px) {
+  .slider-nav .slick-list {
+      overflow: hidden;
+  }
+    .services_block{
+      padding: 10px;
+    }
+    .services_block h3{
+      font-size: 19px;
+      line-height: 24px;
+    }
+    .services_block p{
+      font-size: 12px;
+    line-height: 22px;
+    }
+    i.fa.fa-chevron-right.slick-arrow {
+      top: -25px;
+      right: 12px;
+  }
+  i.fa.fa-chevron-left.slick-arrow{
+    position: absolute;
+    top: -25px;
+    right: 50px;
+  }
+}
   @media only screen and (min-width: 300px) and (max-width: 767px) {
+    .work_content_right_content{
+      position: unset;
+    }
+    .button-group-pills .btn{
+      margin-left: 5px;
+      font-size: 14px;
+    }
+    h2{
+      font-size: 35px;
+    }
+    h4{
+      font-size: 40px;
+      line-height: 50px;
+    }
+    h5{
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    .s_heading h3{
+      font-size: 45px;
+      line-height: 50px;
+    }
+    section.section_project a{
+      font-size: 35px;
+      line-height: 40px;
+    }
+    .custom-footer {
+      text-align: center;
+  }
+  .logo_heading h3{
+    margin-bottom: 35px;
+  }
+  .footer_top.py-5 {
+    padding-bottom: 30px !important;
+}
+.social-group.text-right {
+  text-align: center !important;
+}
+    .footer_list {
+      margin-bottom: 35px;
+  }
     .page-content {
       padding-top: 80px;
   }
