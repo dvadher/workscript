@@ -150,6 +150,13 @@ h6 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   font-size: 26px;
+  display: flex;
+  align-items: center;
+}
+.logo_heading img {
+  width: 45px;
+  object-fit: cover;
+  margin-right: 7px;
 }
 .navbar-nav-link {
   position: relative;
@@ -219,6 +226,7 @@ button.magnet-button {
 .section-about .right_content img {
   height: 480px;
   object-fit: cover;
+  object-position:top;
 }
 .service_block img {
   width: 80px !important;
