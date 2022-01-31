@@ -65,7 +65,7 @@ $(document).ready(function() {
         center: true,
         items: 1,
         animateOut: 'fadeOut',
-        autoplay: true,
+        autoplay: false,
         dots: false,
         nav: false,
         autoplayTimeout: 4000,
