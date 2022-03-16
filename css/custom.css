@@ -26,13 +26,13 @@ body {
   color:#151515 !important;
 }
 .text_secondary, .footer_list a:hover{
-  color:#ed184f !important;
+  color:#d763ff !important;
 }
 .bg_primary{
   background-color:#151515;
 }
 .bg_secondary{
-  background-color:#ed184f;
+  background-color:#d763ff;
 }
 .container{
 	max-width: 1180px;
@@ -176,8 +176,8 @@ h6 {
 .magnet-button {
   display: inline-flex;
   white-space: nowrap;
-  color: #fff;
-  background: #ed184f;
+  color: #151515;
+  background: transparent;
   border-radius: 30px;
   text-transform: uppercase;
   font-size: 14px;
@@ -185,7 +185,7 @@ h6 {
   font-weight: 700;
   padding: 9px 30px;
   letter-spacing: .1em;
-  border:1px solid #ed184f
+  border: 1px solid #e1e1e1;
 }
 button.magnet-button {
   width: 178px;
@@ -210,10 +210,12 @@ button.magnet-button {
   font-size: 23px;
   position: relative;
   padding-left: 40px;
+  color: rgba(24,24,21,.5);
+  font-weight: 600;
 }
 .sub-heading:after {
   content: "";
-  background: #ed184f;
+  background: #d763ff;
   position: absolute;
   top: 20px;
   left: 0;
@@ -267,7 +269,7 @@ button.magnet-button {
   font-weight: 600;
 }
 .social-group a {
-  color: #ed184f;
+  color: #d763ff;
   font-size: 16px;
   font-weight: 700;
   margin: 0px 8px;
@@ -356,7 +358,7 @@ section.section_project a:hover:after{
   transition: transform 0.45s cubic-bezier(.4,.22,.21,1.04);
 }
 .nav-tabs .nav-item.show .nav-link:after, .nav-tabs .nav-link.active:after{
-  background: #ed184f;
+  background: #d763ff;
   transform: scaleX(1);
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
@@ -484,7 +486,7 @@ i.fa.fa-chevron-right.slick-arrow {
   overflow: visible;
 }
 a.btn_more {
-  color: #ed184f;
+  color: #d763ff;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
